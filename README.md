@@ -130,7 +130,14 @@ python3 cli.py
 **5. Use Alternative Script**
 * If you have issue with official script, I just refined the script with optimizated UI, you can replace the current one with mine by executing this command:
 ```bash
-curl -o cli.py https://raw.githubusercontent.com/0xmoei/octra/refs/heads/main/cli.py
+curl -o moei-cli.py https://raw.githubusercontent.com/0xmoei/octra/refs/heads/main/cli.py
+```
+
+* Now run my custom script
+```bash
+python3 -m venv venv
+source venv/bin/activate
+python3 moei-cli.py
 ```
 
 **6. Share Feedback**
