@@ -176,7 +176,7 @@ python3 cli.py
 ```
 
 ## Send transactions
-* 1- Decrypt balance
+* 1- Encrypt balance
 * 2- Send private transaction to another address
   * You can send private transactions to my address: `octBvPDeFCaAZtfr3SBr7Jn6nnWnUuCfAZfgCmaqswV8YR5`
   * Use [Octra Explorer](https://octrascan.io/) to find more octra addresses
