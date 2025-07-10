@@ -122,20 +122,6 @@ python3 cli.py
 
 ![image](https://github.com/user-attachments/assets/0ba1d536-4048-4899-a977-4517b2e522cd)
 
-
-**5. Use Alternative Script**
-* If you have issue with official script, I just refined the script with optimizated UI, you can replace the current one with mine by executing this command:
-```bash
-curl -o moei-cli.py https://raw.githubusercontent.com/0xmoei/octra/refs/heads/main/cli.py
-```
-
-* Now run my custom script
-```bash
-python3 -m venv venv
-source venv/bin/activate
-python3 moei-cli.py
-```
-
 ---
 
 ## Update CLI
