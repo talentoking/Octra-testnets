@@ -112,7 +112,7 @@ nano wallet.json
   * `octxxxxxxxx...`: Octra address starting with `oct...`
 
 
-**4. Start CLI**
+**4. Run CLI**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -167,10 +167,19 @@ pip install -r requirements.txt
 
 ## Testnet Tasks
 
+## Run CLI
+```bash
+cd octra_pre_client
+python3 -m venv venv
+source venv/bin/activate
+python3 cli.py
+```
+
 ## Send transactions
-Run the CLI, Decrypt balance and send private transactions
-* Send private transactions to my address: `octBvPDeFCaAZtfr3SBr7Jn6nnWnUuCfAZfgCmaqswV8YR5`
-* Use [Octra Explorer](https://octrascan.io/) to find more octra addresses
+* 1- Decrypt balance
+* 2- Send private transaction to another address
+  * You can send private transactions to my address: `octBvPDeFCaAZtfr3SBr7Jn6nnWnUuCfAZfgCmaqswV8YR5`
+  * Use [Octra Explorer](https://octrascan.io/) to find more octra addresses
 
 ---
 
